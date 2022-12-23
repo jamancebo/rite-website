@@ -1,2 +1,0 @@
-# rite-website
-rite website
