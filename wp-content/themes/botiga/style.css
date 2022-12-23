@@ -1,0 +1,272 @@
+/*!
+Theme Name: Botiga
+Theme URI: https://athemes.com/theme/botiga/
+Author: aThemes
+Author URI: https://athemes.com
+Description: Launch your store with Botiga. A beautiful theme that is optimized for the block editor. We proudly introduce Botiga, with a modern and clean design that will effortlessly match your brand. Botiga has been developed from the ground up with clean code for optimal performance. You’ll get a mobile-optimized theme that looks and works great on any device and comes with plenty of customization options as well. Discover the theme that will transform your online business.
+Version: 1.2.2
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: botiga
+Tags: e-commerce, custom-menu, custom-logo, grid-layout, featured-images, right-sidebar, custom-colors, editor-style, theme-options, threaded-comments, translation-ready, blog, one-column, two-columns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Botiga is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.page-id-257 .wpforms-form button[type=submit] {
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+}
+
+.page-id-257 .wpforms-form button[type=submit]:hover {
+    background-color: #000 !important;
+}
+.page-id-257 .wpforms-form input,
+.page-id-257 .wpforms-form textarea {
+    border-color: #000 !important;
+}
+.content-wrapper {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+/* Parte de las paginas */
+.page-title, .entry-header{
+    display: none !important;
+}
+
+.content-wrapper {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Parte del footer */
+#block-8 .wp-block-image {
+    margin: 0px;
+}
+
+
+#block-8 .wp-block-image figure{
+    width: 60%;
+    margin: 0px;
+}
+
+#block-9 {
+    margin: -3px 0px 0px 0px;
+    padding: 0px;
+}
+
+#block-9 .wp-block-columns{
+    margin-bottom: 20px;
+}
+
+#block-9 .wp-block-column {
+    font-size: 16px;
+}
+
+#block-13 .wp-block-image{
+    float: left;
+    width: 25px;
+    margin-right: 20px;
+}
+
+#block-13, #block-12 {
+    height: 0px;
+    margin-bottom: 45px;
+    padding-bottom: 0px;
+}
+
+#seo-titulo-subheading h2, #homepage-principal-instagram-heading h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#homepage-principal-instagram-heading .athemes-blocks-block-container-wrapper {
+    padding: 0px;
+}
+
+.seo-titulo-pagina-categorias-h2{
+    font-size: 40px;
+}
+
+#seo-titulo-subheading, #homepage-principal-instagram-heading {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#productos-categorias .athemes-blocks-block-container-wrapper{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#productos-categorias {
+    margin-bottom: 50px;
+}
+
+/* CABECERA */
+header .container {
+    height: 3em;
+}
+
+header .container .bhfb-component-html,header .container .header-html{
+    width: 100%;
+}
+
+header .container .header-html p {
+    margin-bottom: 0px;
+}
+
+.bhfb-above_header_row {
+    background: #e7e7e7;
+}
+
+/* HOMEPAGE */
+.copy-half-image {
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    margin-top: -200px;
+  }
+
+.boton-homepage-ver {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+#homepage-principal .athemes-blocks-block-container-wrapper {
+    padding: 0px;
+    min-width: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.homepage-principal-photo img {
+    width: 100%;
+}
+#homepage-principal .athemes-blocks-block-container-wrapper .athemes-blocks-block-container-wrapper-content {
+    padding: 0px;
+    min-width: 100%;
+    width: 100%;
+}
+header .bhfb-main_header_row {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    background: transparent;
+    border: none;
+}
+.homepage-principal-best-sellers {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+}
+.best-sellers-titulo {
+    margin-top: 0px;
+}
+.homepage-principal-best-sellers .best-sellers-texto {
+    margin-bottom: 0px;
+}
+.best-sellers-texto {
+    color: black;
+}
+.hompage-principal-categorias .categoria{
+    position: relative;
+}
+.hompage-principal-categorias img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+.hompage-principal-categorias .overlay-text {
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+#hompage-principal-colecciones .athemes-blocks-block-container-wrapper-content {
+    max-width: 100%;
+    padding: 0px;
+}
+#hompage-principal-colecciones .athemes-blocks-block-container-wrapper {
+    padding: 0px;
+}
+#hompage-principal-colecciones  {
+    margin: 50px 0px;
+}
+.categoria {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#homepage-principal-instagram-heading , #homepage-principal-instagram-heading .athemes-blocks-block-container-wrapper, #homepage-principal-instagram-feed {
+    background: #e7e7e7;
+}
+#homepage-principal-instagram-feed .athemes-blocks-block-container-wrapper {
+    margin: 0px;
+}
+#homepage-principal-instagram-feed .athemes-blocks-block-container-wrapper-content {
+    min-width: 100%;
+}
+.footer-copyright-method {
+    padding-left: 150px;
+}
+.footer-copyright-method p {
+    margin-bottom: 0px;
+    color: white;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.footer-payments-methods {
+    padding-right: 150px;
+}
+.footer-payments-methods img {
+    width: 40px;
+    height: 25px;
+}
+.bhfb-component-html {
+    width: 100%;
+}
+.product-template-default .site-main{
+    margin-top: 65px;
+}
+.product-gallery-summary .entry-title {
+    margin-bottom: 10px;
+}
+.product-gallery-summary .price {
+    margin-top: 0px !important;
+    margin-bottom: 5px;
+}
+.product-gallery-summary form.cart {
+    margin-top: 0px !important;
+}
+.botiga-single-addtocart-wrapper .quantity, .reset_variations, .single_variation_wrap .woocommerce-variation {
+    display: none !important;
+}
+table.variations {
+    margin-bottom: 30px;
+}
+@media (min-width: 992px)
+    .bhfb-main_header_row {
+        min-height: 60px;
+    }

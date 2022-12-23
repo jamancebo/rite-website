@@ -1,0 +1,14 @@
+[22-May-2022 17:01:43 UTC] Error Commands out of sync; you can't run this command now de la base de datos de WordPress para la consulta SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters'
+/* 1 = 1 */ realizada por shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[22-May-2022 17:01:43 UTC] Error Commands out of sync; you can't run this command now de la base de datos de WordPress para la consulta SHOW COLUMNS FROM `wp_aioseo_notifications` realizada por shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->model, AIOSEO\Plugin\Common\Models\Model->__construct, AIOSEO\Plugin\Common\Models\Model->getColumns, AIOSEO\Plugin\Common\Utils\Database->execute
+[22-May-2022 17:01:43 UTC] Error Commands out of sync; you can't run this command now de la base de datos de WordPress para la consulta SELECT 
+	*
+FROM wp_aioseo_notifications
+WHERE 1 = 1 AND
+	`notification_name` = 'deprecated-filters-v2'
+/* 1 = 1 */ realizada por shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->run
+[22-May-2022 17:01:43 UTC] Error Commands out of sync; you can't run this command now de la base de datos de WordPress para la consulta SHOW COLUMNS FROM `wp_aioseo_notifications` realizada por shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\Filter->flagDeprecated, AIOSEO\Plugin\Common\Models\Notification::getNotificationByName, AIOSEO\Plugin\Common\Utils\Database->model, AIOSEO\Plugin\Common\Models\Model->__construct, AIOSEO\Plugin\Common\Models\Model->getColumns, AIOSEO\Plugin\Common\Utils\Database->execute
